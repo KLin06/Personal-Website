@@ -1,5 +1,6 @@
 import { ExternalLink, ChevronLeft, ChevronRight, BarChart3, Smartphone, Brain, Cloud, Github } from "lucide-react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
 
 const projects = [
@@ -111,7 +112,7 @@ export function Projects() {
           viewport={{ once: true }}
           className="mb-4"
         >
-          <h2 className="text-[#89a48c] mb-2">Selected Projects</h2>
+          <h2 className="text-[#89a48c] mb-2">Projects</h2>
           <div className="h-px max-w-24 bg-[#89a48c]/30"></div>
         </motion.div>
 
@@ -186,13 +187,13 @@ export function Projects() {
                               gap: "1rem",
                           }}
                        >
-                        <a
-                          href={project.link}
+                        <Link
+                          to={project.link}
                           className="w-10 h-10 rounded-full bg-[#89a48c] text-[#0e1a14] flex items-center justify-center hover:bg-[#e8e3d1] transition-colors duration-300"
                           aria-label="View project"
                         >
                           <ExternalLink className="w-5 h-5" />
-                        </a>  
+                        </Link>  
                         <a
                           href={project.github}
                           className="w-10 h-10 rounded-full bg-[#89a48c] text-[#0e1a14] flex items-center justify-center hover:bg-[#e8e3d1] transition-colors duration-300"
@@ -208,12 +209,12 @@ export function Projects() {
                       {/* Title and Link */}
                       <div className="flex items-start justify-between mb-4 mx-6">
                         <h3 className="text-[#e8e3d1]">{project.title}</h3>
-                        <a
-                          href={project.link}
+                        <Link
+                          to={project.link}
                           className="text-[#89a48c]/60 hover:text-[#89a48c] transition-colors duration-300"
                         >
                           <ExternalLink className="w-5 h-5" />
-                        </a>
+                        </Link>
                       </div>
 
                       {/* Description */}

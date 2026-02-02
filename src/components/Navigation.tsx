@@ -39,7 +39,7 @@ export function Navigation() {
         {/* 🟢 Click name → go home (and scroll to hero) */}
         <button
           onClick={() => scrollToSection("hero")}
-          className="text-[#89a48c] hover:text-[#e8e3d1] transition-colors duration-300 text-lg"
+          className="text-[#89a48c] hover:text-[#e8e3d1] transition-colors duration-300 font-normal text-lg"
         >
           Kevin Lin
         </button>
@@ -47,13 +47,13 @@ export function Navigation() {
         <div className="flex gap-10">
           <button
             onClick={() => scrollToSection("timeline")}
-            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300"
+            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300 font-normal"
           >
             Experience
           </button>
           <button
             onClick={() => scrollToSection("projects")}
-            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300"
+            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300 font-normal"
           >
             Projects
           </button>
@@ -61,13 +61,13 @@ export function Navigation() {
             href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300"
+            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300 font-normal"
           >
             Resume
           </a>
           <a
             href="mailto:klin06@outlook.ca"
-            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300"
+            className="text-[#e8e3d1]/60 hover:text-[#89a48c] transition-colors duration-300 font-normal"
           >
             Contact
           </a>

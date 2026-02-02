@@ -86,7 +86,7 @@ export function Hero() {
           >
            <div className="aspect-square rounded-2xl bg-gradient-to-br from-[#1b2b22] to-[#89a48c]/20 border border-[#89a48c]/30 backdrop-blur-sm p-2 flex items-center justify-center overflow-hidden">
             <img
-              src="/IMG_9325.jpg"
+              src="/IMG_2867_Original.jpg"
               alt="Selfie"
               className="w-full h-full object-cover rounded-2xl"
               style={{

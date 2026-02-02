@@ -13,7 +13,7 @@ const experiences = [
      "Implemented QR-based device pairing protocol over UDP with ACK/NACK/CONFIRM flow",
       "Integrated EC key-pair generation and HKDF-derived confirmation codes for mutual authentication",
       "Refactored Kotlin coroutines and RxJava streams for stable real-time video and audio synchronization",
-      "Reduced latency from 3 sec to 1 sec"
+      "Reduced pairing latency from 15 seconds to 5 seconds"
     ],
   },
   {
