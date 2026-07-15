@@ -5,7 +5,7 @@ export const FlavourFinderProject = () => {
   return (
     <section
       id="flavour-finder"
-      className="min-h-screen flex items-center justify-center overflow-hidden"
+      className="py-16 flex items-center justify-center overflow-hidden"
     >
       <div className="flex relative w-[80%] max-w-5xl mx-auto py-3 px-4 justify-center flex-col">
         <div>

@@ -58,6 +58,15 @@ const projects = [
     color: "#89a48c",
     github: "https://github.com/KLin06/Spam-Classifier"
   },
+  {
+    title: "Tuber",
+    description: "An iOS app that minimizes scrolling by removing Shorts from Youtube. Used the Youtube API and CoreML to generate a personalized youtube feed",
+    tech: ["Swift", "SwiftUI", "Google OAuth", "Core ML", "YouTube Data API"],
+    link: "/projects#tuber",
+    image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    color: "#c9484f",
+    github: "https://github.com/KLin06/Tuber"
+  },
 ];
 
 export function Projects() {

@@ -4,10 +4,36 @@ import { Briefcase, GraduationCap, Trophy } from "lucide-react";
 const experiences = [
   {
     type: "work",
-    title: "Android Development Intern",
+    title: "Mobile Software Intern",
+    company: "Rocket Companies",
+    location: "Detroit, Michigan",
+    period: "May 2026 - August 2026",
+   description: "Owned end-to-end delivery of native in-app feedback collection on Android and iOS for a top-10 Finance app on Google Play with a 4.9-star iOS App Store rating.",
+   achievements: [
+    "Replaced a WebView-based CSAT survey with a native feature module in Jetpack Compose (MVVM, Hilt), lifting expected response rates from ~1% toward the ~13% industry average for native in-app surveys",
+    "Embedded user and loan context identifiers in every survey submission to capture origination context alongside sentiment data, with graceful partial-submit fallback on missing fields",
+    "Enforced survey spec governance on PRs by authoring Copilot instructions that block merge when a required spec doc is missing",
+    "Implemented the Google Play In-App Review prompt using the Play Core API with trigger-condition logic"
+    ]
+  },
+  {
+    type: "competition",
+    title: "MindView, DeltaHacks 2026 Finalist",
+    location: "Hamilton, ON",
+    period: "2026",
+    description: "Built a clinician-facing web app that turns fragmented 2D MRI slices into an interactive, color-coded 3D brain and tumor visualization, cutting down manual cross-slice comparison.",
+    achievements: [
+      "Finished as a finalist at DeltaHacks 2026 out of 700+ participants with a full-stack medical imaging tool built in 36 hours",
+      "Fine-tuned a MONAI SegResNet 3D CNN to segment tumor subregions into voxel grids from MRI volumes, then generated controllable 3D meshes with NiBabel and scikit-image",
+      "Integrated a Gemini-powered decision-support chatbot constrained to pre-computed tumor metrics to help clinicians flag concerning patterns",
+    ],
+  },
+  {
+    type: "work",
+    title: "Android Software Intern",
     company: "Adapt Media",
     location: "Toronto, Ontario",
-    period: "Sept 2025 - Present",
+    period: "Sept 2025 - Dec 2025",
     description: "Developed a secure child–parent communication app on top of the open-source Jami platform, enabling offline pairing and encrypted video calls.",
     achievements: [
      "Implemented QR-based device pairing protocol over UDP with ACK/NACK/CONFIRM flow",

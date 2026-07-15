@@ -7,6 +7,7 @@ import { GHGProject } from "../projects/GHGProject";
 import { FlavourFinderProject } from "../projects/FlavourFinderProject";
 import { BadmintonGameProject } from "../projects/BadmintonGameProject";
 import { SpamClassiferProject } from "../projects/SpamClassifierProject";
+import { TuberProject } from "../projects/TuberProject";
 
 export function ProjectPage() {
   const { hash } = useLocation();
@@ -26,7 +27,7 @@ export function ProjectPage() {
   }, [hash]);
 
   return (
-     <div className="relative z-10 max-w-5xl mx-auto px-6 py-20">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-6 pb-10">
         <AutocompleteProject/>
         <SectionBoundary/>
         <ChatterboxProject/>
@@ -38,6 +39,8 @@ export function ProjectPage() {
         <BadmintonGameProject/>
         <SectionBoundary/>
         <SpamClassiferProject/>
+        <SectionBoundary/>
+        <TuberProject/>
      </div>
   );
 }
